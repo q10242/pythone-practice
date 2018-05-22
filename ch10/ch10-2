@@ -1,0 +1,23 @@
+& 交集
+| 聯集
+- 差集
+^ 對稱差集
+== 相等
+!= 不相等
+in 屬於
+not in 不屬於
+
+
+add() 加一個元素到集合
+clear() 刪除集合的所有元素
+cpoy() 淺拷貝方式複製集合
+difference_update() 刪除集合內與另外一個集合重複的元素
+discard() 如果是集合成員刪除
+intersection_update()使用交集更新集合內容
+isdisjoint() 兩集合無交集返回true
+isubset() 這個集合是另外一個集合的子集合
+isupperset() 這個集合是另外一個集合的父集合
+pop() 隨機刪除一個元素 會返回被刪除的元素
+remove() 刪除指定元素
+symmetric_differende_update() 使用對稱差集更新集合內容
+update() 使用聯集更新集合內容
